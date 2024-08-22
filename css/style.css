@@ -35,7 +35,7 @@ body {
   padding: 0 20px;
 }
 
-.contacts__inner {
+.contact__inner {
   display: flex;
   flex-direction: column;
   justify-content: center;
