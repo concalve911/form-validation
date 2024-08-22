@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <section class="contact">
+      <div class="container">
+        <div class="contacts__inner">
+          <h1 class="contact__title">We Would Like To Help You</h1>
+          <form class="contact__form">
+            <label for="name">Name:</label>
+            <input class="contact__name" type="text" name="name" />
+            <div class="contact__error contact__error-name">
+              Name is required.
+            </div>
+
+            <label for="message">Message</label>
+            <textarea class="contacts__input-message" name="message"></textarea>
+            <div class="contact__error contact__error-message">
+              Message must be at least 5 characters long.
+            </div>
+
+            <label for="phone">Phone Number:</label>
+            <input
+              class="contacts__input-phone"
+              type="text"
+              class="input-phone"
+            />
+            <div class="contact__error contact__error-phone">
+              Phone number must start with +380.
+            </div>
+
+            <label for="email">Email:</label>
+            <input type="email" class="contacts__input-email" />
+            <div class="contact__error contact__error-email">
+              Name is required.
+            </div>
+            <button type="submit" class="button">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
