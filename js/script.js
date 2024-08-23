@@ -19,7 +19,7 @@ function validateForm(event) {
     nameError.style.display = "none";
   }
 
-  const messageInput = document.querySelector(".contacts__input-message");
+  const messageInput = document.querySelector(".contact__input-message");
   const messageError = document.querySelector(".contact__error-message");
 
   if (messageInput.value.trim().length < 5) {
@@ -43,7 +43,7 @@ function validateForm(event) {
     phoneError.style.display = "none";
   }
 
-  const emailInput = document.querySelector(".contacts__input-email");
+  const emailInput = document.querySelector(".contact__input-email");
   const emailError = document.querySelector(".contact__error-email");
 
   const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
