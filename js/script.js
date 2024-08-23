@@ -30,7 +30,7 @@ function validateForm(event) {
     messageError.style.display = "none";
   }
 
-  const phoneInput = document.querySelector(".contacts__input-phone");
+  const phoneInput = document.querySelector(".contact__input-phone");
   const phoneError = document.querySelector(".contact__error-phone");
 
   const phonePattern = /^\+380\d{9}$/;
